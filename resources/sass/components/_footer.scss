@@ -1,0 +1,15 @@
+/* 
+* Footer stylings 
+*/
+
+footer {
+    background-color: $footer-bg;
+
+    a {
+        color: $footer-links-color;
+
+        &:hover {
+            color: $footer-links-color;
+        }
+    }
+}

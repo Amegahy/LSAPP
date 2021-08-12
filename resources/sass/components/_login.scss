@@ -1,0 +1,12 @@
+/*
+* Login and registration stylings
+*/
+
+.card-header {
+    background-color: $login-card-header-bg;
+}
+
+.form-check-input:checked {
+    background-color: $login-checkbox-color;
+    border-color: $login-checkbox-color;
+}

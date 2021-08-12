@@ -1,0 +1,35 @@
+/* 
+* All bootstarp override class
+*/
+
+.btn {
+    &-link {
+        color: $link-color;
+    }
+
+    &-primary {
+        @include buttons-colours($button-bg, $button-color);
+    }
+
+    &-danger {
+        @include buttons-colours($button-danger-bg, $button-danger-color);
+    }
+}
+
+.form-control:focus {
+    border-color: $form-control-border-color;
+}
+
+.alert{
+    &-success {
+        background-color: $alert-success;
+    }
+
+    &-danger {
+        background-color: $alert-error;
+    }
+}
+
+.table > :not(caption) > * > * {
+    border-bottom-width: 0;
+}

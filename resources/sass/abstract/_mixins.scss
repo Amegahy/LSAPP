@@ -1,0 +1,20 @@
+/* 
+* Mixins used site wide
+*/
+
+// Sets the button colours and inverses them for hover effect 
+@mixin buttons-colours($bg, $color) {
+    background-color: $bg;
+    border-color: $bg;
+    border-style: $button-border-style;
+    border-width: $button-border-width;
+    color: $color;
+    width: fit-content;
+
+    &:hover {
+        background-color: $color;
+        border-color: $bg;
+        color: $bg;
+        text-decoration: none;
+    }
+}

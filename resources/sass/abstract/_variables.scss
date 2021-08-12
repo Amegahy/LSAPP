@@ -1,0 +1,61 @@
+/* 
+* All variables used site wide
+*/
+
+// Media screens
+$mobile: 768px;
+
+// Typography
+$font-size-xl: 2.5rem; 
+$font-size-lg: 1.5rem; 
+$font-size-md: 1rem; 
+$font-size-sm: .8rem; 
+$line-height-base: 1.6;
+$heading-font: 'Roboto Bold';
+$body-font: 'Roboto Regular';
+
+// Border radius
+$round-radius: 30px;
+
+// Colors
+$white: #ffffff;
+$black: #000000;
+$navy: #060027;
+$green: #177400;
+$red: #ba0000;
+
+// Body
+$body-bg: $white;
+$body-color: $black;
+
+// Navigation bar
+$nav-bar-bg: $navy;
+$nav-bar-color: $white;
+$nav-bar-title-font-size: $font-size-lg;
+$nav-bar-border: 2px solid $white;
+
+// Footer
+$footer-bg: $black;
+$footer-links-color: $white;
+
+// Login
+$login-card-header-bg: $navy;
+$login-checkbox-color: $navy;
+
+// Buttons
+$button-bg: $navy;
+$button-color: $white;
+$button-danger-bg: $red;
+$button-danger-color: $white;
+$button-border-width: 2px;
+$button-border-style: solid;
+
+// Form
+$form-control-border-color: $navy;
+
+// Links
+$link-color: $navy;
+
+// Alerts
+$alert-success: $green;
+$alert-error: $red;

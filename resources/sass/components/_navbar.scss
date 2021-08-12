@@ -1,0 +1,32 @@
+/*
+* Navigation bar stylings
+*/
+
+.navbar {
+    background-color: $nav-bar-bg;
+
+    .nav-link,
+    .navbar-brand  {
+        color: $nav-bar-color;
+    }
+
+    .navbar-brand {
+        font-size: $nav-bar-title-font-size;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .navbar-toggler {
+        border: $nav-bar-border;
+        border-radius: $round-radius;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: $mobile) {
+    .navbar-collapse {
+        flex: revert;
+    }
+}

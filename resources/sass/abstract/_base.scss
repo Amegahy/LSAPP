@@ -1,0 +1,51 @@
+/* 
+* Base stylings used site wide
+*/
+
+body {
+    background-color: $body-bg;
+    color: $body-color;
+    line-height: $line-height-base;
+    text-align: left;
+
+    h1,
+    h2,
+    h3 {
+        font-family: $heading-font;
+    }
+
+    h1 {
+        font-size: $font-size-xl;
+    }
+
+    h2,
+    h3,
+    th {
+        font-size: $font-size-lg;
+    }
+
+    a,
+    li,
+    ul,
+    p,
+    td,
+    small {
+        font-family: $body-font;
+        font-size: $font-size-md;
+    }
+
+    a {
+        color: $navy;
+        text-decoration: none;
+
+        &:hover {
+            color: $navy;
+            text-decoration: underline;
+        }
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}

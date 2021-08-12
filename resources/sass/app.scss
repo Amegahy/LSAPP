@@ -1,0 +1,20 @@
+/* 
+* Main SCSS import file
+*/
+
+// Vendor
+@import '~bootstrap/scss/bootstrap';
+
+// Abstarct
+@import './abstract/mixins';
+@import './abstract/variables';
+@import './abstract/typography';
+@import './abstract/base';
+
+// Components
+@import './components/navbar';
+@import './components/footer';
+@import './components/login';
+
+// Overrides
+@import './overrides/bootstrap';
